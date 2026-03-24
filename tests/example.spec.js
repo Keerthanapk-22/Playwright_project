@@ -8,6 +8,6 @@ test('has title', async ({ page }) => {
 
 
 test('has title', async ({ page }) => {
-  await page.goto('https://www.myntra.com/');
+  await page.goto('https://www.meesho.com/');
   await page.waitForTimeout(3000)
 });
