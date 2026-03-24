@@ -6,3 +6,8 @@ test('has title', async ({ page }) => {
   await page.waitForTimeout(3000)
 });
 
+
+test('has title', async ({ page }) => {
+  await page.goto('https://www.flipkart.com/');
+  await page.waitForTimeout(3000)
+});
