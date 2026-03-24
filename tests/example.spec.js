@@ -3,6 +3,6 @@ import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
   await page.goto('https://www.amazon.in/');
-  await page.waitfortimeout(3000);
+  await page.waitForTimeout(3000)
 });
 
