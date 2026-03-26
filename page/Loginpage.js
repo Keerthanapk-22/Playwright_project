@@ -8,8 +8,8 @@ export class Loginpage{
      async geturl(){
         await this.page.goto('https://adactinhotelapp.com/')
      }
-     async enteruname(user){
-        await this.uname.fill(user)
+     async enteruname(username){
+        await this.uname.fill(username)
      }
      async enterpass(password){
         await this.pass.fill(password)
